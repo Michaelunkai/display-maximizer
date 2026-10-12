@@ -1,0 +1,24 @@
+﻿display-maximizer v1.0.0 - verify - 2026-10-12 23:45:06
+Active displays: 2
+
+  \\.\DISPLAY1  [NVIDIA GeForce RTX 5080]  monitor: Generic PnP Monitor  [PRIMARY]
+    current: 3840x2160 @ 160 Hz (32 bpp)   of 719 driver-enumerated modes
+    maximum: 3840x2160 @ 160 Hz
+    maximized: YES    >=4K: YES    >120Hz: YES    CIM-cross-check: OK
+
+  \\.\DISPLAY5  [AMD Radeon(TM) Graphics]  monitor: Generic PnP Monitor
+    current: 1920x1080 @ 160 Hz (32 bpp)   of 570 driver-enumerated modes
+    maximum: 3840x2160 @ 120 Hz
+    maximized: NO    >=4K: NO (panel ceiling is 3840x2160)    >120Hz: YES    CIM-cross-check: OK
+
+Non-desktop devices seen (not actively driven, left untouched): 7
+  \\.\DISPLAY2  [NVIDIA GeForce RTX 5080]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY3  [NVIDIA GeForce RTX 5080]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY4  [NVIDIA GeForce RTX 5080]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY6  [AMD Radeon(TM) Graphics]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY7  [AMD Radeon(TM) Graphics]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY8  [AMD Radeon(TM) Graphics]  attachedToDesktop=False disconnected=False
+  \\.\DISPLAY9  [AMD Radeon(TM) Graphics]  attachedToDesktop=False disconnected=False
+
+OVERALL: NOT MAXIMIZED
+policy all->120Hz+: PASS      policy all->4K: FAIL (hardware ceiling - see per-display lines)

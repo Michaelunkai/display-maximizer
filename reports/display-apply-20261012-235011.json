@@ -1,0 +1,110 @@
+﻿{
+    "tool":  "display-maximizer",
+    "version":  "1.0.0",
+    "timestamp":  "2026-10-12T23:50:11.4335559+03:00",
+    "mode":  "apply",
+    "displays":  [
+                     {
+                         "device":  "\\\\.\\DISPLAY1",
+                         "adapter":  "NVIDIA GeForce RTX 5080",
+                         "monitor":  "Generic PnP Monitor",
+                         "monitorId":  "MONITOR\\GBT273E\\{4d36e96e-e325-11ce-bfc1-08002be10318}\\0002",
+                         "primary":  true,
+                         "current":  {
+                                         "W":  3840,
+                                         "H":  2160,
+                                         "Hz":  160,
+                                         "Bpp":  32
+                                     },
+                         "best":  {
+                                      "W":  3840,
+                                      "H":  2160,
+                                      "Hz":  160,
+                                      "Bpp":  32,
+                                      "Interlaced":  false,
+                                      "Index":  670
+                                  },
+                         "modeCount":  719,
+                         "atMax":  true,
+                         "cimConfirmed":  true,
+                         "meets4k":  true,
+                         "above120":  true
+                     },
+                     {
+                         "device":  "\\\\.\\DISPLAY5",
+                         "adapter":  "AMD Radeon(TM) Graphics",
+                         "monitor":  "Generic PnP Monitor",
+                         "monitorId":  "MONITOR\\GBT273E\\{4d36e96e-e325-11ce-bfc1-08002be10318}\\0000",
+                         "primary":  false,
+                         "current":  {
+                                         "W":  3840,
+                                         "H":  2160,
+                                         "Hz":  120,
+                                         "Bpp":  32
+                                     },
+                         "best":  {
+                                      "W":  3840,
+                                      "H":  2160,
+                                      "Hz":  120,
+                                      "Bpp":  32,
+                                      "Interlaced":  false,
+                                      "Index":  569
+                                  },
+                         "modeCount":  570,
+                         "atMax":  true,
+                         "cimConfirmed":  true,
+                         "meets4k":  true,
+                         "above120":  true
+                     }
+                 ],
+    "otherDevices":  [
+                         {
+                             "device":  "\\\\.\\DISPLAY2",
+                             "adapter":  "NVIDIA GeForce RTX 5080",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY3",
+                             "adapter":  "NVIDIA GeForce RTX 5080",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY4",
+                             "adapter":  "NVIDIA GeForce RTX 5080",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY6",
+                             "adapter":  "AMD Radeon(TM) Graphics",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY7",
+                             "adapter":  "AMD Radeon(TM) Graphics",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY8",
+                             "adapter":  "AMD Radeon(TM) Graphics",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         },
+                         {
+                             "device":  "\\\\.\\DISPLAY9",
+                             "adapter":  "AMD Radeon(TM) Graphics",
+                             "attachedToDesktop":  false,
+                             "disconnected":  false
+                         }
+                     ],
+    "overall":  {
+                    "maximized":  true,
+                    "allAbove120":  true,
+                    "all4k":  true,
+                    "noDisplay":  false
+                }
+}

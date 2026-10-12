@@ -1,0 +1,7 @@
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.vs/
+.vscode/
